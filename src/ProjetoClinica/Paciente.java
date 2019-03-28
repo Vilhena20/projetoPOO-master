@@ -11,10 +11,8 @@ public class Paciente {
     void alimentacao(){
         System.out.println("Paciente sendo alimentado");
     }
-    String feliz(){
-        return ":)";
+    void feliz() {
+        System.out.println(":)");
     }
-    String triste(){
-        return ":(";
-    }
+
 }

@@ -17,17 +17,16 @@ public class Main {
         Carro carro = new Carro();
         carro.modelo = "sedan";
         carro.cor = "prata";
-        carro.ano = "2010";
+        carro.ano = 2010;
         carro.marca = "Ford";
         carro.chassi = "BR234987644433TZ";
-        carro.proprietario = proprietario;
-        carro.vMax = 180;
-        carro.vAtual = 10;
+        carro.vMax = 180.5;
+        carro.vAtual = 10.5;
         carro.nPortas = 5;
-        carro.tetoSolar = ;
+        carro.tetoSolar = false;
         carro.nMarchas = 5;
         carro.marchaAtual = 1;
-        carro.cambioAuto = 1;
-        carro.volCombust = 60;
+        carro.cambioAuto = true;
+        carro.volCombust = 60.6;
     }
 }

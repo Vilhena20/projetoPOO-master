@@ -5,14 +5,11 @@ public class Carro {
     int ano, nPortas, nMarchas, marchaAtual;
     Double vMax, vAtual, volCombust;
     boolean tetoSolar, cambioAuto;
-    Proprietario proprietario;
     //atributos omitidos
 
-    void acelera(){
-        vatual += 1;
+    void acelera(){vAtual += 1;
     }
-    void freia(){
-        vatual = 0;
+    void freia(){vAtual = 0.0;
     }
     void trocaMarcha(int marchaDesejada){
         marchaAtual = marchaDesejada;

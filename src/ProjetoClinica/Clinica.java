@@ -12,9 +12,10 @@ public class Clinica {
         paciente.idade = 34;
 
         paciente.alimentacao();
+        paciente.descansar();
         paciente.feliz();
 
-        Medico medico = new medico();
+        Medico medico = new Medico();
         medico.nome = "Marcela";
         medico.crm = "256778-2/BR";
         medico.cpf = "234.678.876-45";
@@ -30,6 +31,8 @@ public class Clinica {
         atendimento1.setor = 4;
         atendimento1.cirurgia = true;
 
+        System.out.println("Paciente "+paciente.nome+", senha: "+atendimento1.senha+
+                ", setor "+atendimento1.setor+", com a Médica "+medico.nome+" "+medico.especialidade);
 
 
 
