@@ -1,7 +1,7 @@
 package ProjetoClinica;
 
 public class Medico {
-    String nome, crm, cpf, especialidade;
+    String nome, crm, cpf, especialidade, endereco;
     Double salario;
     int idade;
 

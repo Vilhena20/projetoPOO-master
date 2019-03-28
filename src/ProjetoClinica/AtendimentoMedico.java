@@ -1,6 +1,8 @@
 package ProjetoClinica;
 
 public class AtendimentoMedico {
-    String etapa, procedimento;
+    Paciente paciente;
+    Medico medico;
+    String etapa, procedimento, dataConsulta;
     int senha, setor;
 }

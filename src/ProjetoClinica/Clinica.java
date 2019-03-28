@@ -47,6 +47,9 @@ public class Clinica {
         medico2.operar();
 
         AtendimentoMedico atendimento1 = new AtendimentoMedico();
+        atendimento1.dataConsulta = "20/04/2018";
+        atendimento1.paciente = paciente1;
+        atendimento1.medico = medico1;
         atendimento1.etapa = "iniciado";
         atendimento1.procedimento = "testes cardiológicos";
         atendimento1.senha = 74;
@@ -57,6 +60,9 @@ public class Clinica {
                 ". Aguardar resultados na sala de espera.");
 
         AtendimentoMedico atendimento2 = new AtendimentoMedico();
+        atendimento1.dataConsulta = "30/10/2018";
+        atendimento1.paciente = paciente2;
+        atendimento1.medico = medico2;
         atendimento2.etapa = "Finalizado";
         atendimento2.senha = 20305;
         atendimento2.setor = 7;
