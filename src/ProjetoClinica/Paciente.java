@@ -1,15 +1,18 @@
 package ProjetoClinica;
 
 public class Paciente {
-    String nome, rg, cpf, datanasc, situacao;
-    Double altura;
+    String nome, rg, cpf, dataNascimento, triagem, convenio;
+    Double altura, peso;
     int idade;
 
-    void descansar(){
-        System.out.println("Paciente em repouso");
+    void examinar(){
+        System.out.println("Paciente no laboratório");
     }
-    void alimentacao(){
-        System.out.println("Paciente sendo alimentado");
+    void preocupado(){
+        System.out.println("><");
+    }
+    void descansar(){
+        System.out.println("Paciente descansando");
     }
     void feliz() {
         System.out.println(":)");
