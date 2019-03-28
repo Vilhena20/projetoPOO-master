@@ -60,9 +60,9 @@ public class Clinica {
                 ". Aguardar resultados na sala de espera.");
 
         AtendimentoMedico atendimento2 = new AtendimentoMedico();
-        atendimento1.dataConsulta = "30/10/2018";
-        atendimento1.paciente = paciente2;
-        atendimento1.medico = medico2;
+        atendimento2.dataConsulta = "30/10/2018";
+        atendimento2.paciente = paciente2;
+        atendimento2.medico = medico2;
         atendimento2.etapa = "Finalizado";
         atendimento2.senha = 20305;
         atendimento2.setor = 7;
