@@ -1,6 +1,6 @@
 package Formas;
 
-public class Quadrado implements ICalcGeometria {
+public class Quadrado implements IcalcGeometria {
     private double lado;
 
     public Quadrado(double lado){
